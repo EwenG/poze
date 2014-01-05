@@ -1,1 +1,34 @@
-My GitHub Page
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Poze</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css" />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <style id="css"></style>
+  </head>
+  <body>
+
+    <div id="poze-view">
+    </div>
+
+    <object width="482" height="387" type="application/x-java-applet" name="poze_applet" id="poze-applet">
+      <param value="clj.applet.Applet" name="code"></param>
+      <param value="clojure_applet_aot.jar" name="archive"></param>
+      <param value="true" name="start-nrepl"></param>
+      <param value="clj.debug.poze.poze/in_event" name="handler-fn"></param>
+      <param name="archive" value="clojure_applet_aot.jar"></param>
+    </object>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/react-0.8.0.js"></script>
+    <script src="cljs/goog/base.js" type="text/javascript"></script><script src="cljs/goog/deps.js" type="text/javascript"></script><script type="text/javascript" src="cljs/cljs.js"></script>
+  <script>;goog.require('clojure.browser.repl');</script><script>;goog.require('clojure.browser.repl');clojure.browser.repl.connect.call(null, 'http://localhost:54549/8628/repl');</script></body>
+
+</html>
